@@ -1,0 +1,96 @@
+/* Fonts and Colors */
+body {
+background: rgb(240, 240, 240);
+color: blue;
+font-family: 'Open Sans', sans-serif;;
+}
+
+h1{
+font-family: 'Montserrat', sans-serif;
+font-size: 50px;
+color: black;
+}
+
+h2{
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+}
+
+a{
+text-decoration: none;
+color: blue;
+}
+
+a:hover {
+	text-decoration: none;
+	color: green;
+}
+/* Custom design */
+
+#banner {
+	background-image: url(https://i.picsum.photos/id/124/3504/2336.jpg?hmac=B1Avp6or9Df8vpnN4kQsGNfD66j8hH3gLtootCoTw4M) ;
+	padding: 150px 0;
+	text-align: center;
+	color: white;
+	margin: 0;
+	width: auto;
+	text-shadow: 1px 1px 5px black;
+	background-size: cover;
+}
+
+#banner h1{
+ color: 260c1a;
+font-size: 40px;
+font-weight: lighter;
+opacity: 0.7;
+
+}
+
+/*Container */
+
+.Divscontainer {
+	
+	justify-content: center;
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+.card{
+	height: 300px;
+	padding: 50px;
+	align-items: center;
+	text-align: center;
+	font-weight: lighter;
+}
+
+.row {
+	display: flex;
+}
+
+/*footer */
+
+
+.listfooter a {
+	font-size: 20px;
+	color: whitesmoke;
+
+} 
+
+
+
+.listfooter {
+	justify-content: center;
+	background: #da4167;
+	color: white;
+	font-size: x-large;
+	padding: 20px 20px 20px 20px;
+	display: flex;
+	gap: 10px;
+	height: fit-content;
+		
+}
+#list {
+	width: 150px;
+}
